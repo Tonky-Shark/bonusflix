@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="./custom/css/workups.css">
+    <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img id="logo" src="./pictures/OIP.jpeg" width="50px" height="50px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Forum-->
+<div class="container mt-5">
+    <h1>Contact Me!</h1>
+    <form class="row g-3" action="https://formsubmit.co/karlobuljeta.s@gmail.com" method="POST">
+      <!-- Honeypot -->
+      <input type="text" name="_honey" style="display: none;">
+
+
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" name="name" id="firstName" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+      </div>
+      <div class="col-md-8">
+        <label for="emailInfo" class="form-label">E-mail</label>
+        <input type="email" class="form-control" name="email" id="emailInfo" required>
+      </div>
+      <div class="col-md-4">
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="">
+      </div>
+      <div class="col-md-12">
+        <label for="comments" class="form-label">Comments, questions?</label>
+        <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+</div>
+<!-- Forum-->
+
+<script src="./jquery/jquery-3.6.3.min.js"></script>
+<script src="./jquery/poper.js"></script>
+<script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

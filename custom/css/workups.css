@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+@media only screen and (max-width: 900px){
+  #flex-main{
+    display: none;
+  }
+}
+  @media screen and (min-width: 900px){
+    #flex-min{
+      display: none;
+  }
+}
+
+#flex-min{
+  margin-top: 50px;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+#flex-min .card-img{
+  opacity: 60%;
+}
+.navbar{
+  background-color:#23232c;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 10px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+li a{
+  color: #bad7ec;
+}
+.fa-bars {
+  color: #FF5722;
+  font-size: 30px;
+}
+
+#logo{
+  border-radius: 25px;
+}
+
+div.jumbotron {
+  color: black;
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: unset;
+  height: 100vh;
+}
+
+.carousel{
+  margin-bottom: 100px;
+}
